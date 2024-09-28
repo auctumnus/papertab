@@ -1,0 +1,40 @@
+{
+  "name": "papertab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "prettier --write ."
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@intlify/unplugin-vue-i18n": "^5.2.0",
+    "nanoid": "^5.0.7",
+    "unplugin-vue-components": "^0.27.4",
+    "vue": "^3.4.37",
+    "vue-draggable-plus": "^0.5.3",
+    "vue-i18n": "^10.0.3"
+  },
+  "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.1",
+    "@iconify-json/mdi": "^1.2.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vue/compiler-sfc": "^3.5.8",
+    "@vueuse/core": "^11.1.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "prettier-plugin-classnames": "^0.7.3",
+    "prettier-plugin-merge": "^0.7.1",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.3",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-icons": "^0.19.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
